@@ -14,8 +14,6 @@ import Sample3opt from '../../pages/Sample3/optimized/Sample3opt'
 import Sample4 from '../../pages/Sample4/initial/Sample4'
 import Sample4opt from '../../pages/Sample4/optimized/Sample4opt'
 import Sample5 from '../../pages/Sample5/Sample5'
-import Hoc from '../../pages/Hoc/Hoc'
-
 
 const TwoColumnsLayout = () => (
   <div>
@@ -33,7 +31,6 @@ const TwoColumnsLayout = () => (
           <NavLink exact activeClassName="active" to="/sample4" className="collection-item">Sample4</NavLink>
           <NavLink exact activeClassName="active" to="/sample4opt" className="collection-item">Sample4 Optimized</NavLink>
           <NavLink exact activeClassName="active" to="/sample5" className="collection-item">Sample5</NavLink>
-          <NavLink exact activeClassName="active" to="/hoc" className="collection-item">Hoc</NavLink>
         </div>
       </div>
 
@@ -48,7 +45,6 @@ const TwoColumnsLayout = () => (
         <Route path="/sample4" component={Sample4} exact />
         <Route path="/sample4opt" component={Sample4opt} exact />
         <Route path="/sample5" component={Sample5} exact />
-        <Route path="/hoc" component={Hoc} exact />
       </div>
     </div>
   </div>
